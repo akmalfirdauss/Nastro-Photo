@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI';
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.medsos {
+  background-color: #fff;
+  height: 20px;
+}
+.medsos ul li {
+  display: inline-block;
+  color: #05595b;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.medsos ul li a:hover {
+  color: #e2d784;
+  transition: 0.2s ease-in-out;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header {
+  padding: 5px 0;
+  background-color: #05595b;
+}
+header h1 {
+  float: left;
+  color: #fff;
+  padding: 10px 5px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  color: #fff;
+}
+header ul li a {
+  padding: 25px 15px;
+  display: inline-block;
+}
+header ul li a:hover {
+  background-color: #e2d784;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.active {
+  background-color: #e2d784;
+  color: #fff;
+}
+.bio {
+  height: 80vh;
+}
+.profile {
+  background-color: #05595b;
+  margin-top: 30vh;
+  padding: 30px;
+  border: 5px solid #e2d784;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../img/Logo.png);
+  background-size: cover;
+}
+.keterangan {
+  padding: 30px 0;
+  height: 40vh;
+  background-color: #05595b;
+  text-align: center;
+}
+.keterangan p {
+  margin-top: 60px;
+  padding: 10px;
+  color: #fff;
+  font-size: larger;
+}
+.keterangan p a {
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.keterangan p i {
+  color: red;
+}
+.keterangan p a:hover {
+  color: #e2d784;
+}
+.foto:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(224, 221, 211, 0.1);
+  z-index: 1;
+}
+.foto {
+  height: 30vh;
+  background-image: url(../img/Background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  background-attachment: fixed;
+}
+.foto h2 {
+  padding: 20px 20px;
+  border: 3px solid #e2d784;
+}
+section {
+  padding: 20px 0;
+  text-align: center;
+}
+.about {
+  color: #05595b;
+}
+.search {
+  float: right;
+}
+.srch {
+  padding: 5px 5px;
+}
+.btn {
+  padding: 5px 5px;
+  background-color: #e2d784;
+  color: #fff;
+}
+.bioabouthome {
+  height: 120vh;
+}
+.badan {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.badan h2 {
+  text-align: center;
+  color: #000;
+  border-bottom: 1px solid gainsboro;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.tabel-harga {
+  float: left;
+  margin: 10px;
+  border: 1px solid gainsboro;
+  width: 310px;
+}
+
+.header {
+  padding: 17px;
+}
+
+.header span {
+  display: block;
+  text-align: center;
+}
+
+.paket {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.header-gratis {
+  background-color: #05595b;
+  color: #e2d784;
+}
+
+.header-premium {
+  background-color: #05595b;
+  color: #e2d784;
+}
+
+.header-profesional {
+  background-color: #05595b;
+  color: #e2d784;
+}
+
+.tabel-harga ul {
+  list-style-type: none;
+}
+
+.tabel-harga ul li {
+  padding: 15px;
+  border-bottom: 1px solid gainsboro;
+  margin: 0 10px 0 10px;
+}
+
+.ruang-tombol {
+  padding: 10px;
+  width: 260px;
+}
+
+.selengkapnya {
+  padding: 15px;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.5px;
+  transition: 0.3s ease-in-out;
+}
+.selengkapnya:hover {
+  background-color: #e2d784;
+  color: #fff;
+}
+.desc {
+  text-align: center;
+  border-top: 1px solid gainsboro;
+  padding: 15px 0;
+  width: 100%;
+}
+.desc h2 {
+  color: #05595b;
+}
+.desc a {
+  padding: 10px;
+}
+.pesan ul {
+  width: 260px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px 0;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  transition-duration: 0.8s;
+}
+.pesan ul a {
+  background-color: #05595b;
+  color: #e2d784;
+  transition: 0.3s ease-in-out;
+}
+.pesan ul a:hover {
+  background-color: #e2d784;
+  color: #fff;
+}
+.bioabout {
+  height: 90vh;
+}
+.isiabout h2 {
+  border-bottom: 1px solid gainsboro;
+  padding: 20px;
+  color: #e2d784;
+  width: 70%;
+  margin: 0 auto;
+}
+.isiabout {
+  padding: 10px 0;
+  height: 60vh;
+  background-color: #05595b;
+  text-align: center;
+}
+.isiabout p {
+  padding: 10px;
+  color: #fff;
+  font-size: larger;
+}
+.isiabout p a {
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.isiabout p i {
+  color: red;
+}
+.isiabout p a:hover {
+  color: #e2d784;
+}
+.kontak {
+  height: 20vh;
+}
+.kontak ul {
+  height: 20vh;
+  width: 50%;
+  margin: 0 auto;
+}
+.kontak ul a {
+  margin-top: 100px;
+  padding: 20px 40px;
+  background-color: #e2d784;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.kontak ul a i {
+  margin-top: 40px;
+  font-size: larger;
+  color: #fff;
+}
+footer {
+  margin-top: 30px;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  background-color: #062c30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1) {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+footer p:nth-child(2) {
+  color: white;
+  font-size: 17px;
+  width: 1000px;
+  text-align: center;
+  line-height: 26px;
+}
+.social {
+  display: flex;
+}
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6c6c6c;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+.social a:hover {
+  background-color: #e2d784;
+}
+.end {
+  position: absolute;
+  color: #b5b2b3;
+  bottom: 20px;
+  font-size: 14px;
+}
+.caraorder {
+  background-color: #05595b;
+  text-align: justify;
+  padding: 30px;
+  margin-top: 20px;
+  color: #fff;
+}
+.caraorder ul {
+  margin-left: 25px;
+}
+.caraorder ul li b {
+  color: #e2d784;
+  font-size: 3vmin;
+}
+.listutama {
+  padding: 10px;
+}
+.fotobiohome:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(224, 221, 211, 0.2);
+  z-index: 1;
+}
+.fotobiohome {
+  height: 50vh;
+  padding: 20px 0;
+  background-image: url(../img/IMG_9709\\(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-attachment: fixed;
+}
